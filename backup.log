@@ -1,0 +1,37 @@
+[2025-11-03 12:31:14] INFO: Starting backup of /c/Users/user/test_source
+[2025-11-03 12:31:14] SUCCESS: Backup created: /c/Users/user/backups/backup-2025-11-03-1231.tar.gz
+[2025-11-03 12:31:14] INFO: Verifying checksum...
+[2025-11-03 12:31:15] INFO: Backup verified successfully.
+[2025-11-03 12:31:15] INFO: Checking for old backups to delete...
+[2025-11-03 12:35:46] INFO: Starting backup of /c/Users/user/test_source
+[2025-11-03 12:35:46] SUCCESS: Backup created: /c/Users/user/backups/backup-2025-11-03-1235.tar.gz
+[2025-11-03 12:35:46] INFO: Verifying checksum...
+[2025-11-03 12:35:46] INFO: Backup verified successfully.
+[2025-11-03 12:35:47] INFO: Checking for old backups to delete...
+[2025-11-03 12:36:28] ERROR: Source folder not found: --verify-only
+[2025-11-03 12:37:34] ERROR: Source folder not found: --verify-only
+[2025-11-03 12:40:26] ERROR: Source folder not found: --verify-only
+[2025-11-03 14:08:48] INFO: Starting backup of /c/Users/user/test_source
+[2025-11-03 14:08:49] SUCCESS: Backup created: backup-2025-11-03-1408.tar.gz (Size: 1.0K, Time: 1s)
+[2025-11-03 14:08:49] INFO: Verifying existing backup: /c/Users/user/backups/backup-2025-11-03-1408.tar.gz
+[2025-11-03 14:08:49] SUCCESS: Backup verified successfully.
+[2025-11-03 14:08:57] INFO: Listing all backups in /c/Users/user/backups
+-rw-r--r-- 1 user 197121   0 Sep  1 09:00 backup-2025-09-01-0900.tar.gz
+-rw-r--r-- 1 user 197121   0 Oct  1 09:00 backup-2025-10-01-0900.tar.gz
+-rw-r--r-- 1 user 197121  11 Nov  3 12:36 backup-2025-11-03-1015.tar.gz
+-rw-r--r-- 1 user 197121 118 Nov  3 12:44 backup-2025-11-03-1015.tar.gz.sha256
+-rw-r--r-- 1 user 197121 231 Nov  3 12:31 backup-2025-11-03-1231.tar.gz
+-rw-r--r-- 1 user 197121 118 Nov  3 12:31 backup-2025-11-03-1231.tar.gz.sha256
+-rw-r--r-- 1 user 197121 231 Nov  3 12:35 backup-2025-11-03-1235.tar.gz
+-rw-r--r-- 1 user 197121 118 Nov  3 12:35 backup-2025-11-03-1235.tar.gz.sha256
+-rw-r--r-- 1 user 197121 221 Nov  3 14:08 backup-2025-11-03-1408.tar.gz
+-rw-r--r-- 1 user 197121 118 Nov  3 14:08 backup-2025-11-03-1408.tar.gz.sha256
+[2025-11-03 14:09:06] INFO: Verifying existing backup: /c/Users/user/backups/backup-2025-11-03-1235.tar.gz
+[2025-11-03 14:09:06] SUCCESS: Backup verified successfully.
+[2025-11-03 14:09:15] INFO: Restoring backup /c/Users/user/backups/backup-2025-11-03-1235.tar.gz to /c/Users/user/restore_folder
+[2025-11-03 14:09:15] SUCCESS: Backup restored to /c/Users/user/restore_folder
+[2025-11-03 15:25:53] ERROR: Source folder not found: /c/Users/user/Documents/my_project
+[2025-11-03 15:27:25] INFO: Starting backup of /c/Users/user/Documents/my_project
+[2025-11-03 15:27:26] SUCCESS: Backup created: backup-2025-11-03-1527.tar.gz (Size: 1.0K, Time: 1s)
+[2025-11-03 15:27:26] INFO: Verifying existing backup: /c/Users/user/backups/backup-2025-11-03-1527.tar.gz
+[2025-11-03 15:27:26] SUCCESS: Backup verified successfully.
